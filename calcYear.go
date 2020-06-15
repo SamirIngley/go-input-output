@@ -14,10 +14,10 @@ import (
 func keyboard() {
     reader := bufio.NewReader(os.Stdin)
 
-    fmt.Print("Enter age: ")
+    fmt.Print("Age: ")
     ioage, _ := reader.ReadString('\n')
 
-    fmt.Print("Enter dob: ")
+    fmt.Print("DOB: ")
     iodob, _ := reader.ReadString('\n')
 
     // fmt.Print(ioage, iodb)
