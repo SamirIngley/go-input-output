@@ -21,7 +21,8 @@ func keyboard() {
     iodob, _ := reader.ReadString('\n')
 
     // fmt.Print(ioage, iodb)
-    return AgeYear(ioage, iodob)
+    fmt.Print(AgeYear(iodob, ioage))
+    return AgeYear(iodob, ioage)
 }
 
 
